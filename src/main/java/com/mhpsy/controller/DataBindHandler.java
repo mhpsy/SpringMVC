@@ -1,5 +1,7 @@
 package com.mhpsy.controller;
 
+import com.mhpsy.entity.User;
+import com.mhpsy.entity.UserMap;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,7 +28,6 @@ public class DataBindHandler {
     public String packageType(Integer id){
         return id+"";
     }
-
 
 
 
